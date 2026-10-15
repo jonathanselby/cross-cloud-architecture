@@ -1,0 +1,40 @@
+CROSS-CLOUD ARCHITECTURE TRANSLATION
+
+SOURCE SYSTEM
+    |
+    v
+[1] RECOVER INTENT
+    users / transactions / state / criticality / interfaces
+    |
+    v
+[2] EXTRACT CAPABILITIES
+    runtime / data / messaging / identity / network / observability
+    |
+    v
+[3] RECORD SEMANTIC CONSTRAINTS
+    consistency / ordering / replay / transactions / protocols / claims
+    |
+    v
+[4] RECORD OPERATING ASSUMPTIONS
+    patch / scale / failover / backup / restore / keys / on-call
+    |
+    v
+[5] MAP TARGET SERVICES
+    choose services that satisfy the capabilities in the target cloud
+    |
+    v
+[6] RECORD NON-EQUIVALENCES
+    equivalent enough
+    equivalent with conditions
+    different by design
+    not equivalent
+    |
+    v
+[7] VALIDATE THE WHOLE SYSTEM
+    failure / security / data / integration / operations / cost / exit
+    |
+    v
+TARGET ARCHITECTURE
+
+RULE:
+Preserve required system properties, not the number or shape of source boxes.
