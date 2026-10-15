@@ -167,7 +167,7 @@ This file is a source index, not a frozen copy of provider documentation.
 - Cloud Monitoring: https://cloud.google.com/monitoring/docs/monitoring-overview
 - Cloud Logging: https://cloud.google.com/logging/docs/overview
 - Cloud Trace: https://cloud.google.com/trace/docs/overview
-- Google Cloud OpenTelemetry: https://cloud.google.com/stackdriver/docs/instrumentation/opentelemetry
+- Google Cloud OpenTelemetry: https://docs.cloud.google.com/stackdriver/docs/instrumentation/overview
 
 ### AI
 
